@@ -1,0 +1,465 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Lostgroup-child {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid #ca00e0;
+  box-sizing: border-box;
+  width: 320px;
+  height: 54px;
+}
+.Lostgroup-child:hover {
+  background-color: #ccfffc;
+}
+.Lostregistred-events {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: var(--font-size-5xl);
+  line-height: 20px;
+  display: flex;
+  font-family: var(--font-maven-pro);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 324px;
+  height: 55px;
+}
+
+
+  .Losteventregedbtn{
+  position:relative;
+  border: 2px solid #b4b4b4;
+  top: 76px;
+  border-radius: 13px;
+  width: 325px;
+  height: 56px;
+  cursor: pointer;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+.Losteventregbtn:hover {
+  
+  border: 2px solid #ca00e0;
+  border-radius: 13px; 
+}
+.Losteventregbtn{
+  color: #ffffff;
+  border:none;
+  font-weight: 500px;
+  font-family: "Poppins", Helvetica;
+  position:relative;
+  
+  top: 76px;
+ 
+  border-radius: 13px;
+  width: 325px;
+  height: 56px;
+  cursor: pointer;
+  
+  font-size: 16px;
+  background-color: #ca00e0;
+}
+
+.Losteventregedbtn:hover {
+  box-shadow: 0px 0px 15px 2px #ca00e0;
+}
+
+.Lostgroup-item {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: #2fb2b5;
+  box-shadow: 0 4px 10px #54c4c7 inset, 0 4px 20px #54c4c7;
+  width: 320px;
+  height: 54px;
+  opacity: 0;
+}
+.Lostgroup-item.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.Lostgroup-item:hover {
+  background-color: #1ae0e7;
+}
+.Lostevent-registraction {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: var(--font-size-5xl);
+  line-height: 20px;
+  display: flex;
+  font-family: var(--font-maven-pro);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 324px;
+  height: 55px;
+}
+.Losteventregbtn,
+.Lostrectangle-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 325px;
+  height: 56px;
+}
+
+.Losteventregbtn,
+.Losteventregbtn:hover {
+  cursor: pointer;
+}
+.Lostevent-buttons-grp,
+.Lostimagee-icon {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 325px;
+  height: 132px;
+}
+.Lostimagee-icon {
+  top: 215px;
+  left: 7.5px;
+  width: 310px;
+  height: 286px;
+  overflow: hidden;
+}
+.Lostleft-grp,
+.Lostright-grp-child {
+  position: absolute;
+  top: -16px;
+  left: 48px;
+  width: 325px;
+  height: 469px;
+}
+.Lostright-grp-child {
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--color-gray);
+  border: 2px solid #00000000;
+  box-shadow: 1px 1px 15px 5px #00000040;
+  box-sizing: border-box;
+  width: 632px;
+  height: 525px;
+}
+.Lostright-grp-child-registeredEvent{
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--color-gray);
+  border: 2px solid #00000000;
+  box-shadow: 1px 1px 15px 5px #00000040;
+  box-sizing: border-box;
+  width: 750px;
+  height: 525px;
+
+}
+.Lostcancelbtn {
+  cursor: pointer;
+  border: 3px solid #b4b4b4;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: -3px;
+  left: -2.8px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 108.7px;
+  height: 31.3px;
+  overflow: hidden;
+  transform: rotate(0.2deg);
+  transform-origin: 0 0;
+}
+.Lostcancelbtn:hover {
+ 
+  background-color:#2c2c2c3f;
+ 
+}
+.textarea:focus, input:focus{
+  outline: none;
+}
+.Lostsave-button {
+  cursor: pointer;
+  border: none;
+  background-color:#ca00e0;
+  position: absolute;
+  top: -3px;
+  left: 141px;
+  border-radius:8px;
+  width: 108.7px;
+  height: 31.3px;
+  color: #ffffff;
+  
+}
+.Lostsave-button:hover {
+
+  background-color:#e600ff;
+  
+  color: #ffffff;
+  
+}
+.Lostcancelandsave-grp {
+  position: absolute;
+  top: 446px;
+  left: 340px;
+  width: 246.7px;
+  height: 25.6px;
+}
+.Lostservice-details-grp-input-child {
+  border: 2px solid;
+  border-color: #b4b4b4;
+  background-color: transparent;
+  position: absolute;
+  top: 20.1px;
+  left: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 566px;
+  height: 80.9px;
+}
+.Lostservice-details {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  display: inline-block;
+  width: 126px;
+  height: 11px;
+}
+.Lostservice-details-grp,
+.Lostservice-details-grp-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 566px;
+  height: 101px;
+}
+.Lostservice-details-grp {
+  top: 317px;
+  left: 26px;
+}
+.LostAndFoundnumber-of-collecter {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  display: inline-block;
+  width: 228px;
+  height: 12px;
+}
+.Lostnoofcollecter-input-child {
+  border: 2px solid var(--color-darkgray-100);
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 22px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 261px;
+  height: 36px;
+}
+.Lostnoofcollecter-grp,
+.Lostnoofcollecter-input,
+.Lostphone-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 261px;
+  height: 58px;
+}
+.Lostnoofcollecter-grp,
+.Lostphone-number {
+  top: 240px;
+  left: 333px;
+}
+.Lostphone-number {
+  top: 0;
+  left: 3px;
+  display: inline-block;
+  width: 126px;
+  height: 12px;
+}
+.Lostphone-input {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 261px;
+  height: 36px;
+}
+Foundevent-period-in,
+Foundphone-grp {
+  position: absolute;
+  top: 240px;
+  left: 26px;
+  width: 261px;
+  height: 58px;
+}
+.Lostevent-period-in {
+  top: 0;
+  left: 3px;
+  display: inline-block;
+  width: 171px;
+  height: 12px;
+}
+.Lostevent-p-group-input {
+  border: 2px solid;
+  border-color: #b4b4b4;
+  background-color: transparent;
+  position: relative;
+  top: 22px;
+  left: 0;
+  border-radius: 8px;
+  height: 36px; 
+  background-color: transparent;
+  position: absolute;
+  width: 259px;
+ 
+}
+.Lostevent-p-group-input:focus {
+  border-top: 0;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  border-bottom: 3px solid;
+  
+}
+.Lostevent-p-group,
+.Lostlocation-grp {
+  position: absolute;
+  top: 166px;
+  left: 333px;
+  width: 259px;
+  height: 58px;
+}
+.Lostlocation-grp {
+  top: 163px;
+  left: 26px;
+  width: 261px;
+}
+.Lostdate-input-child {
+  border: 2px solid var(--color-darkgray-100);
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 22px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 259px;
+  height: 36px;
+}
+.Lostdate {
+  position: absolute;
+  top: 0;
+  left: 2.7px;
+  display: inline-block;
+  width: 79.8px;
+  height: 12px;
+}
+.Lostdate-grp,
+.Lostdate-input,
+.Lostname,
+.Lostservicename-grp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 259px;
+  height: 58px;
+}
+.Lostdate-grp,
+.Lostname,
+.Lostservicename-grp {
+  top: 89px;
+  left: 333px;
+}
+.Lostname,
+.Lostservicename-grp {
+  top: 94px;
+  left: 26px;
+  width: 261px;
+}
+.Lostname {
+  top: 0;
+  left: 5.9px;
+  display: inline-block;
+  width: 174.3px;
+  height: 12px;
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  
+}
+.Lostname-input {
+  border: 2px solid;
+  border-color: #b4b4b4;
+  background-color: transparent;
+  position: relative;
+  top: 22px;
+  left: 0;
+  width: 566px;
+  border-radius: 8px;
+  height: 36px;
+}
+.Lostname-input:focus {
+  border-top: 0;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  border-bottom: 3px solid;
+  border-color: #b4b4b4;
+}
+.Lostmain,
+.Lostname-group,
+.Lostright-grp {
+  position: absolute;
+  top: 28px;
+  left: 26px;
+  width: 566px;
+  height: 58px;
+}
+.Lostmain,
+.Lostright-grp {
+  top: -16px;
+  left: 653px;
+  width: 632px;
+  height: 525px;
+ 
+}
+.Lostmain {
+  top: 112px;
+  left: 9px;
+  width: 1285px;
+  height: 641px;
+}
+.Lost {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--peak-primary);
+  font-family: var(--font-montserrat);
+  
+}
+.LosteventReg-label{
+  font-family: "Poppins", Helvetica;
+  font-size: 13px;
+  color: #2c2c2c;
+}

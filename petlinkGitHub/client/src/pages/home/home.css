@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,100&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.home-landingPageMain{
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.home-homeimg{
+    float: right;
+    display: flex;
+    padding-top: 0px;
+    padding-right: 100px;
+}
+
+.home-Pet-House_button{
+    background-color: #ca00e0;
+    border-radius: 8px;
+    border-color: transparent;
+    height: 38px;
+    overflow: hidden;
+    position: relative;
+    width: 160px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #ffffff;
+}
+
+.home-Services-button{
+background-color: #ffffff;
+border: 2px solid;
+border-color: #0e263fa0;
+border-radius: 8px;
+height: 38px;
+overflow: hidden;
+position: relative;
+width: 160px;
+margin-top: 20px;
+cursor: pointer;
+margin-left: 20px;
+text-decoration: none;
+font-weight: 300px;
+}
+.home-Services-button:hover{
+    background-color: #ca00e0;
+    box-shadow: 0px 1px 3px 3px #003f6c23;
+    border-color: transparent;
+    color: #ffffff;
+}
+.home-Community-button{
+        background-color: #ffffff;
+        border: 2px solid;
+        border-color: #0e263fa0;
+        border-radius: 8px;
+        height: 38px;
+        overflow: hidden;
+        position: relative;
+        width: 160px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 300px;
+        }
+        .home-Community-button:hover{
+            background-color: #ca00e0;
+            box-shadow: 0px 1px 3px 3px #003f6c23;
+            border-color: transparent;
+            color: #ffffff;
+            }
+.home-text{
+    padding-top: 8%;
+    padding-left: 10%;
+    color: #54c4c7;
+   
+    background-color: transparent;
+    font-size: 18px;
+    
+    font-weight: 400px;
+    width: 40%;
+    
+    
+}
+
+.home-heading{
+    font-size : 75px;    
+    color: #36494E;
+    text-align:left;
+    font-family: 'Poppins';
+    font-weight: 600px;
+  
+}
+
+
+.home-subheading{
+    font-size: 20px;
+    color: #ca00e0;
+    font-size: larger;
+    font-weight:600px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    
+}
+.home-MainText {
+    color: #36494E;
+    font-family: poppins;
+    font-weight: 400px;
+    font-size: 19px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+.home-image{
+    
+    height: 450px;
+}
+.left-container-landingpage{
+
+}
+.buttonBox{
+    padding-left: 15px;
+}
+
+.home-box {
+    height: 60px;
+    width: 3px;
+  }
+  
+  .home-box .home-group {
+    height: 60px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 389px;
+  }
+  
+  .home-box .home-overlap-group {
+    height: 62px;
+    position: relative;
+    width: 383px;
+  }
+  
+  .home-box .home-text-wrapper {
+    font-weight: 800;
+    left: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    width: 168px;
+    font-size : 60px;    
+    color: #ca00e0;
+    font-family: 'Poppins';
+  }
+  
+  .home-box .home-div {
+    -webkit-text-stroke: 2px #ca00e0;
+    color: transparent;
+    font-family: 'Poppins';
+    font-size : 60px;   
+    font-weight: 800;
+    left: 130px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 220px;
+    
+  }
+
+  .home-join_text {
+    position: relative;
+    color: #36494E;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 600;
+    justify-content: center;
+    top: 10px;
+    margin-left: 5px;
+    
+}
+.homeimg{
+    float: right;
+    display: flex;
+    padding-top: 120px;
+    padding-right: 200px;
+}
+.home-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+.home-pet_text
+{
+    color: #36494E;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 600;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: -70px;
+}
